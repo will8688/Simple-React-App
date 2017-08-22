@@ -1,7 +1,3 @@
-#### SPAREROOM TECHNICAL TEST NOTES ####
-
-#### Mp apologies I have not completed the test to its full entirety but I spent 3-4 hours developing it.
-
 #I chose to use:
 
 ReactJS as the JavaScript Framework as I felt as I dont know it very well I should take myself out of my comfortzone.
