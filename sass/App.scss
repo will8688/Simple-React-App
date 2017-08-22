@@ -1,0 +1,112 @@
+
+@import 'shared/screens';
+$gutterten:10px;
+$guttertwenty:20px;
+$gutterthirty:30px;
+$primarycolor: #003d5d;
+html {
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #5e5e5e;
+}
+
+.app{
+ width: 100%;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: $primarycolor;
+  margin: 0px;
+  margin-bottom: $gutterten;
+}
+h2 {
+  color: $primarycolor;
+  font-size: 18px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+header,nav, footer{
+  width: 50%;
+  margin: 0 auto;
+}
+header{
+  margin-top: $guttertwenty;
+}
+
+input.reserve-input{
+  display: block;
+  margin: 10px 0px;
+  width: 90%;
+}
+
+input.reserve-radio{
+  margin: 10px 0px;
+  
+}
+
+
+.nav{
+  background-color: $primarycolor;
+}
+.second-nav{
+  background-color: #ffffff;
+}
+
+.button{
+  background-color: #fb9d27;
+  border-radius: 4px;
+  color: white;
+    width: 60px;
+    height: 40px;
+    float: right; 
+}
+
+.app-event-details{
+  width: 50%;
+  // background-color: purple;
+  margin: 0 auto;
+  padding-left: $gutterthirty;
+  padding-right: $gutterthirty;
+  margin-top: $guttertwenty;
+}
+.app-event-reserve{
+  width: 45%;
+  // background-color: green;
+  float:left;
+  padding-left: $guttertwenty;
+  padding-right: $guttertwenty;
+  margin-top: $guttertwenty;
+}
+
+.app-event-location{
+  width: 45%;
+  background-color: white;
+   float:right;
+   padding-left: $guttertwenty;
+  padding-right: $guttertwenty;
+}
+
+.app-event-location-banner{
+  width: 100%;
+  background-image: url(bar-photo.jpg);
+  position: relative;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+.app-event-location-banner-details{
+  position: absolute;
+  top:0px;
+  left:50px;
+  background-color: #ffffff;
+  width: 40%;
+}

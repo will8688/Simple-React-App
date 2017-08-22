@@ -1,0 +1,26 @@
+{
+  "name": "spareroom",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "load-google-maps": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-google-map": "^3.0.1",
+    "react-google-maps-loader": "^3.0.1",
+    "react-scripts": "1.0.11"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "npm-run-all": "^4.0.2"
+  },
+  "scripts": {
+    "build-css": "node-sass sass/ -o src/",
+    "watch-css": "npm run build-css && node-sass sass/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

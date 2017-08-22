@@ -1,0 +1,116 @@
+/* Small Screens */
+@media (max-width: 768px) {
+  .mobile {
+    visibility: hidden; }
+  .tablet {
+    visibility: visible; }
+  .desktop {
+    visibility: hidden; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mobile {
+    visibility: hidden; }
+  .tablet {
+    visibility: visible; }
+  .desktop {
+    visibility: hidden; } }
+
+@media (min-width: 1024px) {
+  .mobile {
+    visibility: hidden; }
+  .tablet {
+    visibility: hidden; }
+  .desktop {
+    visibility: visible; } }
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #5e5e5e; }
+
+.app {
+  width: 100%; }
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #003d5d;
+  margin: 0px;
+  margin-bottom: 10px; }
+
+h2 {
+  color: #003d5d;
+  font-size: 18px; }
+
+h3 {
+  font-weight: bold;
+  font-size: 15px; }
+
+header, nav, footer {
+  width: 50%;
+  margin: 0 auto; }
+
+header {
+  margin-top: 20px; }
+
+input.reserve-input {
+  display: block;
+  margin: 10px 0px;
+  width: 90%; }
+
+input.reserve-radio {
+  margin: 10px 0px; }
+
+.nav {
+  background-color: #003d5d; }
+
+.second-nav {
+  background-color: #ffffff; }
+
+.button {
+  background-color: #fb9d27;
+  border-radius: 4px;
+  color: white;
+  width: 60px;
+  height: 40px;
+  float: right; }
+
+.app-event-details {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px; }
+
+.app-event-reserve {
+  width: 45%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px; }
+
+.app-event-location {
+  width: 45%;
+  background-color: white;
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.app-event-location-banner {
+  width: 100%;
+  background-image: url(bar-photo.jpg);
+  position: relative;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.app-event-location-banner-details {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  background-color: #ffffff;
+  width: 40%; }
